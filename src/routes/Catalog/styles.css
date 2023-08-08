@@ -10,12 +10,12 @@
 
 .ct-search-bar-container {
     margin-bottom: 40px;
-
-    
 }
 
 .ct-catalog-cards-container {
-    border: 1px solid blue;
+    display: grid;
+    grid: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(258px, 1fr));
 }
 
 @media (min-width: 576px) {
